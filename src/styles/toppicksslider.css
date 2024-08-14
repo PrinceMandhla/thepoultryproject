@@ -1,0 +1,86 @@
+h2{
+    text-align: center;
+}
+
+.card-slider {
+    width: 80%;
+    margin: 0 auto;
+    padding:  0 auto;
+    
+}
+
+.card {
+    background-color: #3a7e93;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    height: 300px; /* Increased height to make the cards longer vertically */
+    display: flex;
+    flex-direction: column;
+    width: 40px; /* Reduced width for each card */
+    border: 2px solid #000000; /* Added border around each card */
+    margin: 10px; /* Center each card within its container */
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.card img {
+    width: 100%;
+    height: 150px; /* Adjusted height for image */
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.card-info {
+    padding: 10px;
+}
+
+.card-info h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.card-info p {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Custom styles for navigation arrows */
+.slick-arrow.slick-prev, .slick-arrow.slick-next {
+    font-size: 20px;
+    background-color: #000000;
+    color: transparent;
+    border-radius: 50%;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.slick-prev {
+    left: -5px; /* Adjust position if necessary */
+}
+
+.slick-next {
+    right: -45px; /* Adjust position if necessary */
+}
+
+/* Ensure arrows are positioned correctly inside the card-slider container */
+.card-slider {
+    position: relative;
+}
+
+
+.card:hover{
+    transform: scale(1.05);
+    border-color: #000000;
+    background-color: #306879;
+}
+
+.sldcontainer{
+    background-color: #96939300;
+}

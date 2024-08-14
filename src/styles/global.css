@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #4491a8;
+    color: #000000;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+    color: #000000;
+}
